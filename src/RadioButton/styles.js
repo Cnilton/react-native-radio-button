@@ -1,6 +1,9 @@
 import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
+  formContainer: {
+    flex: 1,
+  },
   buttonContainer: {
     flexDirection: 'row',
     justifyContent: 'center',
@@ -24,6 +27,9 @@ const styles = StyleSheet.create({
     height: 12,
     borderRadius: 12,
     backgroundColor: '#2f3259',
+  },
+  label: {
+    color: '#000',
   },
 });
 
