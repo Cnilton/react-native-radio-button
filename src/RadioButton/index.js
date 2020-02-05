@@ -48,6 +48,10 @@ export default class RadioButton extends Component {
       ...labelStyle,
     };
 
+    formStyle = {
+      ...formStyle,
+    };
+
     return (
       <View style={formStyle}>
         {this.props.data.map(item => {
