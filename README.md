@@ -1,5 +1,5 @@
 ![npm](https://img.shields.io/npm/v/react-native?color=%232fa90f&label=react-native&style=plastic)
-![npm](https://img.shields.io/npm/dm/react-native-customizable-radiobutton?style=plastic)
+![npm](https://img.shields.io/npm/dm/react-native-customizable-radio-button?style=plastic)
 
 # About
 
@@ -10,20 +10,20 @@ This is a React-Native RadioButton component that you can freely modify its styl
 To install just input the following command:
 
 ```bash
-npm i react-native-customizable-radiobutton
+npm i react-native-customizable-radio-button
 ```
 
 or
 
 ```bash
-yarn add react-native-customizable-radiobutton
+yarn add react-native-customizable-radio-button
 ```
 
 ## Basic Usage
 
 ```javascript
 //...
-import RadioButton from 'react-native-customizable-radiobutton';
+import RadioButton from 'react-native-customizable-radio-button';
 
 const options = [
   {
@@ -57,7 +57,7 @@ export default class reactNativeRadioButtonForm extends Component {
 
 ```javascript
 //...
-import RadioButton from 'react-native-customizable-radiobutton';
+import RadioButton from 'react-native-customizable-radio-button';
 
 const options = [
   {

@@ -1,6 +1,6 @@
 {
-  "name": "react-native-customizable-radiobutton",
-  "version": "1.0.1",
+  "name": "react-native-customizable-radio-button",
+  "version": "1.0.2",
   "main": "index.js",
   "private": false,
   "repository": {
