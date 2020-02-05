@@ -79,6 +79,7 @@ export default class reactNativeRadioButtonForm extends Component {
   render() {
     return (
       <RadioButton
+        // formStyle = {{}} // add your styles to whole form container
         // containerStyle={{}} // add your styles to each item container
         // circleContainerStyle={{}} // add your styles to each outer circle
         // innerCircleStyle={{}} // add your styles to each inner circle
