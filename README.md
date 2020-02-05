@@ -1,5 +1,5 @@
 ![npm](https://img.shields.io/npm/v/react-native?color=%232fa90f&label=react-native&style=plastic)
-![npm](https://img.shields.io/npm/dm/react-native-customizable-checkbox?style=plastic)
+![npm](https://img.shields.io/npm/dm/react-native-customizable-radiobutton?style=plastic)
 
 # About
 
