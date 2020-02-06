@@ -74,12 +74,17 @@ export default class RadioButton extends Component {
       ...formStyle,
     };
     return (
-      <FlatList
-        contentContainerStyle={formStyle}
-        keyExtractor={(item, index) => String(index)}
-        data={this.props.data}
-        renderItem={item => this.renderItem(item)}
-      />
+      // <FlatList
+      //   scrollEnabled={false}
+      //   nestedScrollEnabled={false}
+      //   contentContainerStyle={formStyle}
+      //   keyExtractor={(item, index) => String(index)}
+      //   data={this.props.data}
+      //   renderItem={item => this.renderItem(item)}
+      // />
+      <View style={formStyle}>
+        {this.props.data.map(item => this.renderItem(item))}
+      </View>
     );
   }
 }
