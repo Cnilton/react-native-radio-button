@@ -9,6 +9,19 @@ export default class RadioButton extends Component {
     value: null,
   };
 
+  componentDidMount() {
+    if (this.props.defaultOption !== undefined) {
+      this.props.data.map(item => {
+        if (item.id == this.props.defaultOption) {
+          this.handleClick(item);
+          return;
+        }
+      });
+    } else {
+      this.handleClick(this.props.data[0]);
+    }
+  }
+
   handleClick = item => {
     if (this.props.isContainerClickable) {
       this.radioClick(item);

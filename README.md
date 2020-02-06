@@ -79,6 +79,7 @@ export default class reactNativeRadioButtonForm extends Component {
   render() {
     return (
       <RadioButton
+        // defaultOption={id} // you may input the selected option as default. When not marked, first is always selected
         // formStyle = {{}} // add your styles to whole form container
         // containerStyle={{}} // add your styles to each item container
         // circleContainerStyle={{}} // add your styles to each outer circle
