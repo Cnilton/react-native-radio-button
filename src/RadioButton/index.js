@@ -13,12 +13,12 @@ export default class RadioButton extends Component {
     if (this.props.defaultOption !== undefined) {
       this.props.data.map(item => {
         if (item.id == this.props.defaultOption) {
-          this.handleClick(item);
+          this.radioClick(item);
           return;
         }
       });
     } else {
-      this.handleClick(this.props.data[0]);
+      this.radioClick(this.props.data[0]);
     }
   }
 
