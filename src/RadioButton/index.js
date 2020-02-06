@@ -50,18 +50,16 @@ export default class RadioButton extends Component {
     return (
       <TouchableOpacity
         activeOpacity={this.props.isContainerClickable ? 0.6 : 1.0}
-        onPress={() => this.handleClick(item.item)}
-        key={item.item.id}
+        onPress={() => this.handleClick(item)}
+        key={item.id}
         style={containerStyle}>
         <TouchableOpacity
           style={circleContainerStyle}
-          onPress={() => this.radioClick(item.item)} // we set our value state to id
+          onPress={() => this.radioClick(item)} // we set our value state to id
         >
-          {this.state.value === item.item.id && (
-            <View style={innerCircleStyle} />
-          )}
+          {this.state.value === item.id && <View style={innerCircleStyle} />}
         </TouchableOpacity>
-        <Text style={labelStyle}>{item.item.text}</Text>
+        <Text style={labelStyle}>{item.text}</Text>
       </TouchableOpacity>
     );
   };

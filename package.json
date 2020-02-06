@@ -1,7 +1,7 @@
 {
   "name": "react-native-customizable-radio-button",
   "description": "A simple and (almost) fully customizable React-Native RadioButton component.",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "index.js",
   "private": false,
   "repository": {
